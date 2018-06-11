@@ -1,4 +1,58 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+
 body {
   background-color: #dadada;
   font-size: 10px;
+}
+
+.container {
+  margin: 20px auto;
+  width: 90%;
+}
+
+.preview {
+  float: left;
+  margin: 1% ;
+  height: 300px;
+  width: 23%;
+  padding: 20px 25px;
+ }
+
+
+.baku {
+   background: #000 url("../images/baku.jpg") center center;
+   background-size: cover;
+
+} 
+
+.london {
+	background: #000 url("../images/london.png") center center;
+   background-size: cover;
+}
+
+.madrid {
+	background: #000 url("../images/madrid.jpg") center center;
+   background-size: cover;
+}
+
+.rome {
+	background: #000 url("../images/rome.jpg") center center;
+   background-size: cover;
+}
+
+@media screen and (max-width: 991px){
+   .preview {
+    margin: 1%;
+    width: 48%;
+  }
+}
+
+@media screen and (max-width: 574px){
+   .preview {
+    margin: 1%;
+    width: 98%;
+  }
 }
